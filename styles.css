@@ -10,12 +10,15 @@ body {
     font-size: 18px;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
+    background-color: #c9e7f2;
 }
 
 /* Header */
 
 header {
     position: fixed;
+    top: 0;
+    right: 0;
     width: 100%;
     padding: 40px 20px;
     height: 69px;
@@ -67,7 +70,7 @@ a:hover {
 .dropdown:hover .current_menu {
     display: flex;
     flex-direction: column;
-    background-color: #c9e7f2;
+    background-color: #408699;
     border-radius: 5px;
     padding: 40px 20px 0 10px;
     position: absolute;
@@ -76,7 +79,7 @@ a:hover {
 }
 
 .current_menu a:hover {
-    color: #408699;
+    color: #d98825;
 }
 
 .current_menu {
@@ -106,3 +109,44 @@ a:hover {
     border-bottom: none;
 }
 
+/* Hero Image */
+.hero_img {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.hero {
+    margin-top: 80px; /* IS this the best way to fix fixed nav bar overlap content? research*/
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9e7f2;
+}
+
+.hero_left {
+    color: #408699;
+    line-height: 50px;;
+}
+
+.hero_left h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+}
+
+.hero_left h4 {
+    font-size: 1.56rem;
+}
+
+.hero_left button {
+    background-color: #d98825;
+    border: none;
+    height: 41px;
+    width: 156px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    color: #fff;
+    margin-top: 30px;
+}
