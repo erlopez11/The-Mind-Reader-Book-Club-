@@ -29,7 +29,12 @@ header {
 .left {
     color: #fff;
     font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
     display: flex;
+}
+
+.material-symbols-outlined {
+    font-size: 3.125rem !important;
 }
 
 .right {
@@ -38,6 +43,7 @@ header {
 }
 
 .menu {
+    font-size: 1.25rem;
     margin: 0;
     padding: 0px;
     list-style: none;
@@ -50,6 +56,7 @@ header {
 .menu a {
     text-decoration: none;
     color: #fff;
+    font-size: 1.25rem;
 }
 
 a:hover {
@@ -68,6 +75,10 @@ a:hover {
     left: -10px;
 }
 
+.current_menu a:hover {
+    color: #408699;
+}
+
 .current_menu {
     display: none;
     z-index: 1;
@@ -84,7 +95,6 @@ a:hover {
 }
 
 .current_menu li {
-    color: #408699;
     list-style: none;
     border-bottom: 1px solid #d98825;
     padding: 0 30px 10px 30px;
@@ -94,3 +104,4 @@ a:hover {
 .current_menu li:last-of-type {
     border-bottom: none;
 }
+
