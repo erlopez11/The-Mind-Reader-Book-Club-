@@ -187,7 +187,8 @@ a:hover {
 .mission_right p {
     font-size: 1.56rem;
     color: #fff;
-    text-align: center; /* Need to fix the padding once the other imgs are sized*/
+    text-align: center;
+    padding: 30px 75px;
 }
 
 /* Current Reads */
